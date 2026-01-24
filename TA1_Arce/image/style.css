@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  background: #000;
+  color: #fff;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 22px;
+  color: #e10600;
+  font-weight: bold;
+}
+
+.logo img {
+  width: 40px;
+}
+
+.top-nav nav a {
+  margin-left: 25px;
+  text-decoration: none;
+  color: #ccc;
+}
+
+.top-nav nav a:hover {
+  color: #e10600;
+}
+
+.nav-cta {
+  border: 1px solid #e10600;
+  padding: 6px 14px;
+}
+
+.hero {
+  height: 100vh;
+  position: relative;
+}
+
+.hero-bg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.35;
+}
+
+.hero-content {
+  position: absolute;
+  bottom: 20%;
+  left: 8%;
+}
+
+.hero-content h1 {
+  font-size: 64px;
+  letter-spacing: 6px;
+}
+
+.hero-buttons a {
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 15px;
+  padding: 12px 24px;
+  border: 1px solid #fff;
+  color: #fff;
+  text-decoration: none;
+}
+
+.primary-btn {
+  background: #e10600;
+  border: none;
+}
+
+.form-page,
+.profile-page {
+  max-width: 500px;
+  margin: 160px auto;
+  padding: 25px;
+}
+
+form input,
+form textarea,
+form button {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 14px;
+  background: #111;
+  border: 1px solid #333;
+  color: #fff;
+}
+
+form button {
+  background: #e10600;
+  border: none;
+  cursor: pointer;
+}
+
+.profile-card {
+  background: #111;
+  padding: 25px;
+  border: 1px solid #333;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #777;
+}
