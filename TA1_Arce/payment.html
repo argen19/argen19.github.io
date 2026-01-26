@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CArce | Payment and Delivery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+    <div class="logo-container">
+        <img src="image/logo.png" alt="CArce Logo">
+    </div>
+</header>
+       
+ 
+<div class="page-content">
+
+    <nav class="side-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="login.html">Login</a>
+        <a href="transaction.html">Transaction</a>
+    </nav>
+    
+    <main>
+        <h2>Payment & Delivery</h2>
+ 
+        <form id="paymentForm" class="form-card">
+ 
+            <label>Payment Method</label>
+            <select id="paymentMethod" required>
+                <option value="">-- Select Payment Method --</option>
+                <option value="Credit Card">Credit Card</option>
+                <option value="GCash">GCash</option>
+                <option value="Bank Transfer">Bank Transfer</option>
+            </select>
+ 
+            <label>Delivery Option</label>
+            <select id="deliveryOption" required>
+                <option value="">-- Select Delivery Option --</option>
+                <option value="Home Delivery">Home Delivery</option>
+                <option value="Pickup">Pickup at Showroom</option>
+            </select>
+ 
+            <label>Delivery Address</label>
+            <textarea id="address" rows="4" placeholder="Complete delivery address"></textarea>
+ 
+            <button type="submit">Confirm Transaction</button>
+        </form>
+ 
+    </main>
+ 
+</div>
+ 
+<footer>
+    <p>© 2026 CArce. All Rights Reserved.</p>
+</footer>
+ 
+<script src="script.js"></script>
+</body>
+</html>

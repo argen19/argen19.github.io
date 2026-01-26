@@ -242,10 +242,6 @@ main h2 {
 }
 
 
-/* ===============================
-   PROFILE PAGE (CARCE THEME)
-   =============================== */
-
 .profile-page {
     min-height: 100vh;
     display: flex;
@@ -269,7 +265,6 @@ main h2 {
     font-size: 14px;
 }
 
-/* PROFILE CARD */
 .profile-card {
     background-color: #121212;
     width: 360px;
@@ -300,7 +295,6 @@ main h2 {
     background-color: #000;
 }
 
-/* NAME & ROLE */
 .profile-card h2 {
     margin-top: 15px;
     font-size: 22px;
@@ -311,7 +305,6 @@ main h2 {
     color: #e10600;
 }
 
-/* STATS */
 .profile-stats {
     display: flex;
     justify-content: space-around;
@@ -545,4 +538,77 @@ footer {
     padding: 22px;
     font-size: 13px;
     color: #888;
+}
+
+ 
+.form-card {
+    background-color: #121212;
+    padding: 35px;
+    border-radius: 14px;
+    border: 1px solid #1f1f1f;
+    max-width: 520px;
+}
+ 
+label {
+    display: block;
+    margin-bottom: 6px;
+    color: #bbb;
+    font-size: 14px;
+}
+ 
+select {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 20px;
+    background-color: #111;
+    border: 1px solid #2a2a2a;
+    color: #fff;
+    border-radius: 6px;
+}
+ 
+select:focus {
+    outline: none;
+    border-color: #e10600;
+}
+ 
+.receipt-box {
+    background-color: #121212;
+    padding: 35px;
+    border-radius: 14px;
+    border: 1px solid #1f1f1f;
+    max-width: 600px;
+}
+ 
+.receipt-box h3 {
+    color: #e10600;
+    margin-bottom: 15px;
+}
+ 
+.receipt-box p {
+    color: #ccc;
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+ 
+.receipt-box hr {
+    border: 0;
+    border-top: 1px solid #2a2a2a;
+    margin: 20px 0;
+}
+ 
+.back-home {
+    display: inline-block;
+    margin-top: 25px;
+    color: #e10600;
+    text-decoration: none;
+    font-weight: 500;
+}
+ 
+.back-home:hover {
+    text-decoration: underline;
+}
+ 
+nav a.active {
+    color: #e10600;
+    font-weight: bold;
 }
