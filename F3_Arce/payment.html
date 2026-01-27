@@ -1,10 +1,12 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CArce | Payment and Delivery</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CArce | Payment</title>
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 <header class="site-header">
@@ -12,52 +14,44 @@
         <img src="image/logo.png" alt="CArce Logo">
     </div>
 </header>
-       
- 
-<div class="page-content">
 
-    <nav class="side-nav">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-        <a href="login.html">Login</a>
-        <a href="transaction.html">Transaction</a>
-    </nav>
-    
+<nav class="side-nav">
+    <a href="cart.html">Cart</a>
+    <a href="payment.html" class="active">Payment</a>
+</nav>
+
+<div class="page-content">
     <main>
-        <h2>Payment & Delivery</h2>
- 
-        <form id="paymentForm" class="form-card">
- 
-            <label>Payment Method</label>
-            <select id="paymentMethod" required>
-                <option value="">-- Select Payment Method --</option>
-                <option value="Credit Card">Credit Card</option>
-                <option value="GCash">GCash</option>
-                <option value="Bank Transfer">Bank Transfer</option>
+
+        <div class="title">
+            <h2>Payment & Delivery</h2>
+        </div>
+
+        <form id="paymentForm">
+            <select required>
+                <option value="">Select Payment Method</option>
+                <option>Credit Card</option>
+                <option>GCash</option>
+                <option>Cash on Delivery</option>
             </select>
- 
-            <label>Delivery Option</label>
-            <select id="deliveryOption" required>
-                <option value="">-- Select Delivery Option --</option>
-                <option value="Home Delivery">Home Delivery</option>
-                <option value="Pickup">Pickup at Showroom</option>
+
+            <select required>
+                <option value="">Delivery Option</option>
+                <option>Pickup</option>
+                <option>Home Delivery</option>
             </select>
- 
-            <label>Delivery Address</label>
-            <textarea id="address" rows="4" placeholder="Complete delivery address"></textarea>
- 
-            <button type="submit">Confirm Transaction</button>
+
+            <button type="submit">Confirm Payment</button>
         </form>
- 
+
     </main>
- 
 </div>
- 
+
 <footer>
     <p>© 2026 CArce. All Rights Reserved.</p>
+    <p>Email: CArce@gmail.com | Phone: 0918-523-5035</p>
 </footer>
- 
+
 <script src="script.js"></script>
 </body>
 </html>
