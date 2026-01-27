@@ -668,6 +668,6 @@ footer {
     padding: 22px;
     font-size: 14px;
     color: var(--muted);
-    padding-left: calc(var(--nav-width) + 20px);
     width: 100%
+
 }
